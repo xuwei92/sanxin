@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="微软雅黑" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>三鑫集团</title>
+    <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="top">
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+            <div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">注册</a></li>
+                    <li><a href="#">登陆</a></li>
+                    <li><a href="#">通知</a></li>
+                    <li><a href="#">设置</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="container">
+    <div class="first">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img src="images/banner1.jpg" alt=""></a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li><a href="#" ui-sref="one" ui-sref-active="on">首页</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" ui-sref="two" ui-sref-active="on">
+                        社区团体服务 <b>∨</b>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle::hover" data-toggle="dropdown" ui-sref="three" ui-sref-active="on">
+                        党组织活动服务 <b>＞</b>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" ui-sref="four" ui-sref-active="on">
+                        居民自愿服务 <b>＞</b>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="sectend">
+        <ol class="breadcrumb">
+            <span>当前位置:</span>
+            <li>首页</li>
+            <li>养老社区</li>
+            <li>离休退休</li>
+        </ol>
+    </div>
+    <div class="three">
+        <dl class="clearfix">
+            <dt class="col-md-1"><img src="images/banner2.jpg" alt=""><i class="glyphico"></i></dt>
+            <dd class="col-md-8"><h3>社区生日会</h3><span>提供社区五保供养申请的办理指南，注意事项，办理机构等相关程序。</span></dd>
+        </dl>
+    </div>
+
+    <div ui-view></div>
+</div>
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="../dist/js/bootstrap.min.js"></script>
+<script src="js/js.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-ui-router.js"></script>
+<script src="js/app.js"></script>
+<script src="js/config.js"></script>
+</html>

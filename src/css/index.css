@@ -1,0 +1,174 @@
+@charset "UTF-8";
+body {
+  font-family: "微软雅黑"; }
+  body .top nav {
+    border: none;
+    background: #01b0b9; }
+    body .top nav a {
+      color: #fff !important; }
+  body .container {
+    padding: 0;
+    width: 960px; }
+    body .container .first {
+      min-height: 60px;
+      background: #ffffff; }
+      body .container .first li a {
+        background: #fff !important;
+        color: #000 !important;
+        font-size: 18px; }
+      body .container .first li a:hover {
+        background: #fff !important;
+        color: #01b0b9 !important; }
+      body .container .first li a:link {
+        background: #fff !important;
+        color: #01b0b9 !important; }
+      body .container .first .navbar-brand {
+        padding-top: 0 !important; }
+        body .container .first .navbar-brand img {
+          width: 100%; }
+    body .container .sectend {
+      color: #666 !important; }
+      body .container .sectend span {
+        margin-right: 2%; }
+      body .container .sectend .breadcrumb > li + li:before {
+        color: #CCCCCC;
+        content: ">";
+        padding: 0 5px; }
+    body .container .three {
+      border-bottom: 8px solid #e1e1e1; }
+      body .container .three h3 {
+        color: #01b0b9;
+        margin-top: 0;
+        margin-bottom: 3%; }
+      body .container .three dt {
+        padding-right: 8% !important; }
+    body .container .four .form {
+      margin-top: 10px;
+      margin-bottom: 20px; }
+    body .container .four .form .input-file {
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    body .container .four .form .file-add {
+      height: 400px;
+      background: #eee url("../images/default.png") no-repeat center; }
+    body .container .four ul {
+      margin-left: 15px; }
+      body .container .four ul li {
+        list-style: none !important;
+        line-height: 40px; }
+        body .container .four ul li p {
+          margin-bottom: 0; }
+        body .container .four ul li small {
+          float: right;
+          font-size: 12px;
+          color: #999999; }
+          body .container .four ul li small time {
+            padding-right: 20px; }
+    body .container .four textarea {
+      border: 1px solid #01b0b9;
+      height: 78px;
+      width: 100%;
+      resize: none; }
+    body .container .four h5 {
+      height: 40px;
+      line-height: 40px;
+      border-bottom: 1px solid #000; }
+      body .container .four h5 span {
+        cursor: pointer;
+        float: right;
+        display: inline-block;
+        width: 80px;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        background: #01b0b9;
+        color: #fff;
+        border-radius: 5px; }
+    body .container .timeline-wrap {
+      position: relative;
+      border-left: 2px solid #aaa;
+      padding: 20px 21px 40px 0;
+      margin: 50px 0; }
+    body .container .timeline-wrap span {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background: #fff;
+      border: 2px solid #aaa;
+      border-radius: 100%; }
+    body .container .timeline-wrap span.top {
+      left: -6px;
+      top: -5px; }
+    body .container .timeline-wrap span.bottom {
+      left: -6px;
+      bottom: -5px; }
+    body .container .time-line {
+      margin-left: 0 !important; }
+    body .container .time-line li {
+      width: 150px;
+      height: auto;
+      position: relative; }
+      body .container .time-line li a {
+        background: #fff; }
+    body .container .time-line li:after {
+      position: absolute;
+      content: "";
+      width: 10px;
+      height: 10px;
+      background: #aaa;
+      border: 2px solid #fff;
+      border-radius: 100%;
+      left: -6px;
+      top: 20px; }
+    body .container .time-line > li:hover:after {
+      background-color: dodgerblue; }
+    body .container .time-line li.active:after {
+      background: dodgerblue; }
+    body .container .scrollspy-example {
+      height: 300px;
+      overflow-y: auto;
+      position: relative; }
+    body .container .tab-pane dl {
+      border: 1px solid #ccc;
+      box-shadow: 5px 5px 5px 5px #ccc; }
+      body .container .tab-pane dl img {
+        width: 100%; }
+      body .container .tab-pane dl p, body .container .tab-pane dl span {
+        padding-left: 10px; }
+      body .container .tab-pane dl span {
+        font-size: 10px; }
+        body .container .tab-pane dl span i {
+          font-style: normal;
+          color: #999 !important; }
+      body .container .tab-pane dl dd {
+        padding: 20px 0; }
+  body .onely {
+    border: none;
+    height: 30px;
+    min-height: 30px;
+    outline: none; }
+  body .list .col-md-4 dl {
+    position: relative;
+    overflow: hidden; }
+    body .list .col-md-4 dl dt img {
+      cursor: pointer; }
+  body .list .san {
+    position: absolute;
+    top: -38px;
+    left: -38px;
+    text-align: center;
+    line-height: 128px;
+    width: 76px;
+    height: 77px;
+    color: #fff;
+    font-size: 10px;
+    transform: rotate(-45deg); }
+  body .list .begin {
+    background: #d45858; }
+  body .list .end {
+    background: #757575; }
+  body .list .over {
+    background: #01b0b9; }
+
+/*# sourceMappingURL=index.css.map */
